@@ -19,7 +19,7 @@ body {
   border-left: 2px solid rgb(242, 242, 242);
 }
 
-nav {
+nav{
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
@@ -54,11 +54,17 @@ nav {
     color: rgb(255, 255, 255);
     font-family: Okra-Bold;
     font-weight: 600 !important;
-    /* border-radius: 6px !important; */
+    border-radius: 8px !important;
     cursor: pointer !important;
     font-size: 16px !important;
-
+    /* height: 50px !important; */
 }
+
+.all-categories{
+    width: 85%;
+}
+
+
 
 
 
