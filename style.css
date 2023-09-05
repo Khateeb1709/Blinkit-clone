@@ -81,6 +81,8 @@ nav {
 
 .my-card {
   width: 179px;
+  margin-inline: 10px;
+  height: 300px;
 }
 .product-time {
   font-weight: 700;
@@ -96,8 +98,14 @@ nav {
   color: rgb(31, 31, 31);
   font-weight: 600;
   font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 18px;
+  width: 100%;
+  height: 36px;
   margin-bottom: 6px;
-  cursor: pointer;
+  white-space: pre-wrap;
 }
 
 .dp-card-weight {
@@ -130,7 +138,7 @@ nav {
 
 .dp-section-title {
   background: rgb(255, 255, 255);
-  width: 98%;
+  width: 100%;
 }
 
 .dp-title-left {
@@ -148,4 +156,8 @@ nav {
   color: rgb(12, 131, 31);
   font-family: Okra-Medium;
   cursor: pointer;
+}
+
+.my-card > div{
+  margin-bottom: 10px;
 }
